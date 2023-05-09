@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tip Calculator</title>
+  </head>
+  <body class="display_none">
+    <nav class="navbar bg border border-top-0 rounded-bottom mb-5">
+      <div class="container-fluid mb-5">
+              <p class="h1 display-1 fw-bold check">Calculation Jungle</p>
+            <div class="btn-group dropstart position-absolute end-0 bottom-0 mb-2 me-2">
+              <button type="button" class="btn btn-info mb-0 dropdown-toggle " data-bs-toggle="dropdown" aria-expanded="false">
+                Select
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/components/counter/counter.html">Simple Counter</a></li>
+                <li><a class="dropdown-item" href="/components/digital-calculator/calculator.html">Digital Calculator</a></li>
+                <li><a class="dropdown-item" href="/components/height-conversion-tool/heightConversionTool.html">Height Conversion Tool</a></li>
+                <li><a class="dropdown-item" href="/components/loan-calculator/loanCalculator.html">Loan Calculator</a></li>
+                <li><a class="dropdown-item" href="/components/percentage-tip-calculator/percentageTipCalculator.html">Percentage Tip Calculator</a></li>
+                <li><a class="dropdown-item" href="/components/weight-conversion-tool/weightConversionTool.html">Weight Conversion Tool</a></li>
+              </ul>
+            </div>
+            
+          </div>
+        </nav>
+    <div class="container mt-5">
+      <h1 class="h1 text-center text-info display-3 fw-bold txt-shd">
+        Tip Calculator
+      </h1>
+      <div class="row d-flex justify-content-center align-items-center">
+        <div
+          id="calculator"
+          class="py-4 col-11 col-sm-5 col-lg-6 col-md-7 col-xl-8 bg-info rounded bx-shd"
+        >
+          <div
+            class="my-3 mt-0 d-flex justify-content-between align-items-center"
+          >
+            <label class="form-label fs-4">Bill Amount:</label>
+            <input
+              class="form-control text-center fs-6 me-0 w-50"
+              id="bill-amount"
+            />
+          </div>
+          <div
+            class="my-3 mt-0 d-flex justify-content-between align-items-center"
+          >
+            <label class="form-label fs-4">Percentage Tip:</label>
+            <input
+              class="form-control text-center fs-6 me-0 w-50"
+              id="percentage-tip"
+            />
+          </div>
+          <div
+            class="my-3 mt-0 d-flex justify-content-between align-items-center"
+          >
+            <label class="form-label fs-4">Tip Amount:</label>
+            <input
+              class="form-control text-center fs-6 me-0 w-50"
+              id="tip-amount"
+              disabled
+            />
+          </div>
+          <div
+            class="my-3 mt-0 d-flex justify-content-between align-items-center"
+          >
+            <label class="form-label fs-4">Total:</label>
+            <input
+              class="form-control text-center fs-6 me-0 w-50"
+              id="total"
+              disabled
+            />
+          </div>
+          <div class="d-flex justify-content-center align-items-center">
+            <button id="calculate" class="btn btn-primary">Compute Tip</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrap trigger"></div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Digital Calculator</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body class="display_none">
+    <nav class="navbar bg border border-top-0 rounded-bottom mb-5">
+      <div class="container-fluid mb-5">
+              <p class="h1 display-1 fw-bold check">Calculation Jungle</p>
+            <div class="btn-group dropstart position-absolute end-0 bottom-0 mb-2 me-2">
+              <button class="btn btn-info mb-0 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Select
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/components/counter/counter.html">Simple Counter</a></li>
+                <li><a class="dropdown-item" href="/components/digital-calculator/calculator.html">Digital Calculator</a></li>
+                <li><a class="dropdown-item" href="/components/height-conversion-tool/heightConversionTool.html">Height Conversion Tool</a></li>
+                <li><a class="dropdown-item" href="/components/loan-calculator/loanCalculator.html">Loan Calculator</a></li>
+                <li><a class="dropdown-item" href="/components/percentage-tip-calculator/percentageTipCalculator.html">Percentage Tip Calculator</a></li>
+                <li><a class="dropdown-item" href="/components/weight-conversion-tool/weightConversionTool.html">Weight Conversion Tool</a></li>
+              </ul>
+            </div>
+            
+          </div>
+        </nav>
+    <section class="container mt-5">
+        <h1 class="h1 d-flex text-info display-3 fw-bold justify-content-center txt-shd">Digital Calculator</h1>
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="calculator py-4 col-9 col-sm-3 col-lg-4 col-md-5 col-xl-3 bg-info rounded bx-shd">
+          <form>
+            <!-- <input type="text" name="" id="" class="screen"> -->
+            <input
+              type="text"
+              class="form-control screen p-3 mb-4 rounded-pill fw-bold fs-4 bx-shd"
+            />
+          </form>
+
+          <!-- buttons -->
+          <div class="container mt-5">
+            <div class="row d-flex justify-content-end">
+              <div class="col-2 d-flex justify-content-center p-0">
+                <button class="btn-trigger btn-hover-effect bg1 btn btn-primary p-0 fs-6 rounded-circle px-3 py-1 lead btn-clear bx-shd">
+                  C
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="row d-flex justify-content-center align-items-center my-2"
+            >
+              <div class="col-12 d-flex justify-content-between p-0">
+                <button
+                  class="btn-trigger btn-hover-effect btn btn-light p-0 fs-4 rounded-circle px-3 py-1 lead bx-shd"
+                  data-num="1"
+                >
+                  1
+                </button>
+                <button
+                  class="btn-trigger btn-hover-effect btn btn-light p-0 fs-4 rounded-circle px-3 py-1 lead bx-shd"
+                  data-num="2"
+                >
+                  2
+                </button>
+                <button
+                  class="btn-trigger btn-hover-effect btn btn-light p-0 fs-4 rounded-circle px-3 py-1 lead bx-shd"
+                  data-num="3"
+                >
+                  3
+                </button>
+                <button
+                  class="btn-trigger blk btn btn-light p-0 fs-6 rounded-circle px-3 py-1 lead fw-bold bx-shd"
+                  data-num="+"
+                >
+                  +
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="row d-flex justify-content-center align-items-center my-2"
+            >
+              <div class="col-12 d-flex justify-content-between p-0">
+                <button
+                  class="btn-trigger btn-hover-effect btn btn-light p-0 fs-4 rounded-circle px-3 py-1 bx-shd"
+                  data-num="4"
+                >
+                  4
+                </button>
+                <button
+                  class="btn-trigger btn-hover-effect btn btn-light p-0 fs-4 rounded-circle px-3 py-1 lead bx-shd"
+                  data-num="5"
+                >
+                  5
+                </button>
+                <button
+                  class="btn-trigger btn-hover-effect btn btn-light p-0 fs-4 rounded-circle px-3 py-1 lead bx-shd"
+                  data-num="6"
+                >
+                  6
+                </button>
+                <button
+                  class="btn-trigger blk btn btn-light p-0 fs-4 rounded-circle px-3 py-1 lead fw-bold bx-shd"
+                  data-num="-"
+                >
+                  -
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="row d-flex justify-content-center align-items-center my-2"
+            >
+              <div class="col-12 d-flex justify-content-between p-0">
+                <button
+                  class="btn-trigger btn-hover-effect btn btn-light p-0 fs-4 rounded-circle px-3 py-1 lead bx-shd"
+                  data-num="7"
+                >
+                  7
+                </button>
+                <button
+                  class="btn-trigger btn-hover-effect btn btn-light p-0 fs-4 rounded-circle px-3 py-1 lead bx-shd"
+                  data-num="8"
+                >
+                  8
+                </button>
+                <button
+                  class="btn-trigger btn-hover-effect btn btn-light p-0 fs-4 rounded-circle px-3 py-1 lead bx-shd"
+                  data-num="9"
+                >
+                  9
+                </button>
+                <button
+                  class="btn-trigger blk btn btn-light p-0 fs-6 fw-bold rounded-circle px-3 py-1 lead bx-shd"
+                  data-num="*"
+                >
+                  X
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="row d-flex justify-content-center align-items-center my-2"
+            >
+              <div class="col-12 d-flex justify-content-between p-0">
+                <button
+                  class="btn-trigger btn-hover-effect btn btn-light p-0 fs-4 rounded-circle px-3 py-1 lead bx-shd"
+                  data-num="0"
+                >
+                  0
+                </button>
+                <button
+                  class="btn-trigger btn-hover-effect btn-hover-effect btn btn-light p-0 fs-4 rounded-circle px-3 py-1 lead fw-bold bx-shd"
+                  data-num="."
+                >
+                  .
+                </button>
+                <button class="btn-hover-effect btn-equal bx-shd">=</button>
+                <button
+                  class="btn-trigger blk btn btn-light p-0 fs-4 fw-bold rounded-circle px-3 py-1 lead bx-shd"
+                  data-num="/"
+                >
+                  /
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="wrap trigger"></div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

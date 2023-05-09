@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(216, 237, 246);
+    margin-bottom: 50px;
+    transition: all 1s;
+}
+.bg{
+    background-image: linear-gradient(white, skyblue);
+    /* width: 90% !important;
+    margin: 0 auto !important; */
+}
+.bg2{
+    /* background-image: linear-gradient(white, skyblue); */
+    width: 90% !important;
+    /* margin: 40 auto !important; */
+}
+.check{
+    color: white;
+}
+.dropdown-toggle, .dropdown-menu{
+    background-color: rgb(216, 237, 246);
+}
+
+
+.counter-img{
+    background-image: url('./images/counter.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.calcualtor-img {
+    background-image: url('./images/0007400001861.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.height-convert-img {
+    background-image: url('./images/height\ convert.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.loan-calculator-img{
+    background-image: url('./images/loan\ converter.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tip-calculator-img{
+    background-image: url('./images/tip\ percentage\ calculator.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.weight-converter-img {
+    background-image: url('./images/weight\ converter.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrap{
+    background-color: rgb(255, 255, 255, 0.6);
+}
+
+.card-shd {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+
+
+.display{
+    display: block;
+}
+.display_none{
+    display: none;
+}
+
+.wraper{
+    background-color: rgba(255, 255, 255);
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    height: 100%; 
+    width: 100%; 
+
+}
+.wrap_light{
+    background-color: rgba(255, 255, 255, 0);
+    transition: all 0.7s ease;
+}
+.wrap_backward{
+    position: fixed !important;
+    z-index: -5;
+    top: 0;
+    left: 0;
+    height: 100%; 
+    width: 100%; 
+}

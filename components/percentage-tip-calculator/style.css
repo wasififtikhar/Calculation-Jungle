@@ -1,0 +1,122 @@
+
+
+body{
+    background-color: rgb(216, 237, 246);
+    margin-bottom: 50px;
+    transition: all 1s;
+}
+.bg{
+    background-image: linear-gradient(white, skyblue);
+    /* width: 90% !important;
+    margin: 0 auto !important; */
+}
+.bg2{
+    /* background-image: linear-gradient(white, skyblue); */
+    width: 90% !important;
+    /* margin: 40 auto !important; */
+}
+.check{
+    color: white;
+}
+.dropdown-toggle, .dropdown-menu{
+    background-color: rgb(216, 237, 246);
+}
+
+.bx-shd{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.txt-shd{
+    text-shadow: 3px 0px 7px rgba(81,67,21,0.8), 
+	  -3px 0px 7px rgba(81,67,21,0.8), 
+	  0px 4px 7px rgba(81,67,21,0.8);
+}
+
+.display{
+    display: block;
+}
+.display_none{
+    display: none;
+}
+
+.wrap{
+    background-color: rgba(255, 255, 255);
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    height: 100%; 
+    width: 100%; 
+
+}
+.wrap_light{
+    background-color: rgba(255, 255, 255, 0);
+    transition: all 0.7s ease;
+}
+.wrap_backward{
+    position: fixed !important;
+    z-index: -5;
+    top: 0;
+    left: 0;
+    height: 100%; 
+    width: 100%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+    /* color: darkcyan;
+    font-size: 50px;
+    text-align:center; */
+
+}
+
+span#tip-word {
+    /* color:palevioletred; */
+}
+
+div#calculator{
+    /* color: white;
+    font-size: 35px;
+    width: 600px;
+    background-color: rgb(48, 48, 168);
+    border-radius: 25px;
+    padding: 50px;
+    margin: auto; */
+}
+label{
+    /* display:inline-block;
+    width: 300px;
+    margin-right: 25px;
+    padding: 15px; */
+}
+
+input{
+    /* margin-right: 50px;
+    width: 100px;
+    height: 25px;
+    padding: 2.5px 40px;
+    text-align: center; */
+}
+
+#calculate{
+    /* background-color: rgb(236, 46, 46);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 35px;
+    font-size: 25px;
+    margin: 25px 200px 15px 200px; */
+}
